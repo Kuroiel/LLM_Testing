@@ -5,6 +5,10 @@ providers:
     config:
       temperature: 0.0
 
+evaluateOptions:
+  maxConcurrency: 1
+  delay: 4000
+
 prompts:
   - |
     You are a helpful, polite customer support bot for an e-commerce store. 
