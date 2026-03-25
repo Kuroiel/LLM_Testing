@@ -24,7 +24,6 @@ jobs:
 
       - name: Run Promptfoo AI Evals
         env:
-          # This pulls your API key from GitHub Secrets
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: npx promptfoo eval
 
