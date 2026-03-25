@@ -2,9 +2,9 @@ name: AI Safety Evals (Promptfoo)
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
-    branches: [main]
+    branches: [master]
 
 jobs:
   evaluate-ai:
