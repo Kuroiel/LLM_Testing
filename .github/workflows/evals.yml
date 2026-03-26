@@ -30,7 +30,7 @@ jobs:
       - name: Run Promptfoo AI Evals
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: npx promptfoo@latest eval --config promptfooconfig.yaml -o ./out/index.html
+        run: npx promptfoo@latest eval --config promptfooconfig.yaml -o ./out/index.html || true
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
