@@ -9,8 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "promptfoo": "^0.120.19"
-  }
+  "type": "commonjs"
 }
