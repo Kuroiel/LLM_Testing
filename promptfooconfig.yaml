@@ -10,11 +10,11 @@ providers:
 defaultTest:
   options:
     provider: groq:llama-3.1-8b-instant
-    delay: 2000
+    delay: 20000
 
 evaluateOptions:
   maxConcurrency: 1
-  delay: 2000
+  delay: 20000
 
 prompts:
   - |
